@@ -1,0 +1,158 @@
+@media (max-width : 1200px) {
+    .sbar {
+        position: fixed;
+        top: 70px;
+        left: 0px;
+        bottom: 0px;
+        width: 200px;
+        background-color: #3C4764;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        padding-bottom: 100px;
+    }
+    .sbt1, .sbt2, .sbt3, .sbt4 {
+        color: white;
+        font-family: rubik mono one;
+        font-size: 18px;
+        cursor: pointer;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    .sbt12, .sbt22, .sbt32, .sbt42 {
+        color: white;
+        font-family: rubik mono one;
+        font-size: 18px;
+        cursor: pointer;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        height: 100px;
+        align-items: center;
+        background-color: #576893;
+    }
+    .sname {
+        color: #8DA7F1;
+        font-family: rubik mono one;
+        font-size: 20px;
+        cursor: pointer;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        height: 100px;
+        align-items: center;
+        animation-name: magic;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .sbt1:hover {
+        background-color: #56658F;
+    }
+    .sbt2:hover {
+        background-color: #56658F;
+    }
+    .sbt3:hover {
+        background-color: #56658F;
+    }
+    .sbt4:hover {
+        background-color: #56658F;
+    }
+    .spopup11, .spopup12, .spopup21, .spopup22 {
+        width: 300px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        background-color: white;
+        border: solid 1px #3C4764;
+        border-left: none;
+        display: flex;
+        flex-direction: column;
+        left: 200px;
+    }
+    .spopin11, .spopin12, .spopin21, .spopin22 {
+        width: 300px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        background-color: white;
+        border: solid 1px #3C4764;
+        border-left: none;
+        display: flex;
+        display: none;
+        flex-direction: column;
+        left: 200px;
+    }
+    @keyframes magic {
+        to{opacity: 1;}
+    }
+}
+@media (min-width : 1200px) {
+    .sbar {
+        position: fixed;
+        top: 70px;
+        left: 0px;
+        bottom: 0px;
+        width: 200px;
+        background-color: #3C4764;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        display: none;
+    }
+    .sbt1, .sbt2, .sbt3, .sbt4 {
+        color: white;
+        font-family: rubik mono one;
+        font-size: 20px;
+        cursor: pointer;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    .sbt1:hover {
+        background-color: #56658F;
+    }
+    .sbt2:hover {
+        background-color: #56658F;
+    }
+    .sbt3:hover {
+        background-color: #56658F;
+    }
+    .sbt4:hover {
+        background-color: #56658F;
+    }
+    .spopup {
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        width: 200px;
+        background-color: white;
+        border: solid 1px #3C4764;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+}
+@media (max-width : 500px) {
+    .sbar {
+        display: none;
+    }
+}
